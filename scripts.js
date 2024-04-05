@@ -1,3 +1,4 @@
+// Week 9 War Card Game
 // Function to shuffle a deck of cards
 function shuffleDeck(deck) {
     for (let i = deck.length - 1; i > 0; i--) {
