@@ -58,7 +58,11 @@ function playWarGame() {
                 player2Wins++;
             }
 
-            console.log(`Round ${round}: Player 1's Card - ${player1Card.value} of ${player1Card.suit}, Player 2's Card - ${player2Card.value} of ${player2Card.suit}, Winner: ${result > 0 ? 'Player 1' : (result < 0 ? 'Player 2' : 'Tie')}`);
+            console.log(`Round ${round}: 
+Player 1's Card - ${player1Card.value} of ${player1Card.suit}, 
+Player 2's Card - ${player2Card.value} of ${player2Card.suit}, 
+Winner: ${result > 0 ? 'Player 1' : (result < 0 ? 'Player 2' : 'Tie')}
+------------------------------------------------------------------`);
         } else {
             console.log("Invalid cards for the current round. Skipping the round.");
         }
